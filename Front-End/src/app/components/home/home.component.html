@@ -1,0 +1,93 @@
+<!-- Navbar -->
+<app-navbar></app-navbar>
+<!-- Fin Navbar -->
+
+<!-- Main -->
+<main>
+    <!-- Carousel de la pagina de Inicio -->
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+    
+      <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+              <img src="../../../assets/imgs/RioCentro3.jpeg" class="d-block w-100 c-img" alt="Slide 1">
+              <div class="carousel-caption top-0 mt-4">
+                  <p class="mt-5 fs-3 text-uppercase">Tu Lugar Favorito</p>
+                  <h1 class="display-1 fw-bolder text-capitalize">Mina Clavero</h1>
+              </div>
+          </div>
+          <div class="carousel-item c-item">
+              <img src="../../../assets/imgs/Rio4.jpeg" class="d-block w-100 c-img" alt="Slide 2">
+              <div class="carousel-caption top-0 mt-4">
+                <p class="mt-5 fs-3 text-uppercase">Tu Lugar Favorito</p>
+                <h1 class="display-1 fw-bolder text-capitalize">Mina Clavero</h1>
+              </div>
+          </div>
+          <div class="carousel-item c-item">
+              <img src="../../../assets/imgs/Rio7.jpeg" class="d-block w-100 c-img" alt="Slide 3">
+              <div class="carousel-caption top-0 mt-4">
+                <p class="mt-5 fs-3 text-uppercase">Tu Lugar Favorito</p>
+                <h1 class="display-1 fw-bolder text-capitalize">Mina Clavero</h1>
+              </div>
+          </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Fin del Carousel de la pagina de Inicio -->
+    
+      <!-- Historia Mina Clavero de la pagina de Inicio -->
+      <div class="history-text">
+          <figure class="text-center">
+              <figcaption class="blockquote-footer">
+                  Entre montañas y ríos, tu belleza se despliega, Mina Clavero, joya serena de la naturaleza.
+              </figcaption>
+                  <div class="text-container">
+                      <p class="text-important">
+                          Las raíces de Mina Clavero se remontan a la época precolombina, cuando las culturas comechingonas y sanavironas poblaban esta región montañosa.
+                          Estos antiguos habitantes dejaron su legado cultural impreso en el paisaje y las tradiciones, que aún se pueden apreciar en la actualidad.
+                          Aunque no hallaron los tesoros esperados, descubrieron en cambio la inigualable riqueza de la tierra y la naturaleza que rodea esta encantadora localidad.
+                          Esto marcó un hito en el desarrollo del turismo en la zona, atrayendo a viajeros ávidos de explorar estos paisajes montañosos y deleitarse con la tranquilidad y serenidad que ofrecía.
+                          Las postales de montañas verdes, ríos cristalinos y cascadas cristalinas pronto comenzaron a circular, atrayendo la atención de personas de todas partes, que buscaban refugiarse del bullicio de las ciudades y encontrar una conexión profunda con la naturaleza.
+                          El atractivo de Mina Clavero se consolidó aún más en el siglo XX, cuando la construcción de infraestructuras turísticas, como hoteles, balnearios y centros recreativos, dio lugar a un floreciente sector turístico en la región. Sin embargo, a pesar de su crecimiento y modernización, Mina Clavero ha sabido preservar su esencia, manteniendo su encanto auténtico y su conexión con la historia y las tradiciones locales.
+                          Las actividades al aire libre abundan, ofreciendo opciones para los amantes del senderismo, deportes acuáticos y la contemplación de la naturaleza en su estado más puro.
+                          Además, festivales culturales, como el Festival Nacional del Folklore, dan vida a las tradiciones locales y dan muestra de la riqueza cultural de la zona.
+                          Mina Clavero es mucho más que un destino turístico, es un rincón mágico en las Sierras de Córdoba que combina su rica historia con la belleza cautivante de su entorno natural. Desde sus inicios precolombinos hasta su auge como un destino turístico renombrado, Mina Clavero ha dejado una huella en la historia argentina y en los corazones de quienes la visitan. Un lugar donde la historia y la naturaleza se fusionan para crear una experiencia única y fascinante.
+                      </p>
+                  </div>
+          </figure>
+      </div>
+      <!-- Fin Historia Mina Clavero de la pagina de Inicio -->
+    
+      <!-- INFOCARD SECTION -->
+      <section id="gallery">
+          <div class="container">
+            <div class="row">
+              <!-- COMPONENT INFOCARD -->
+              <div>
+                <app-info-cards 
+                    *ngFor="let infoCard of infoCards"
+                    [infoCard]="infoCard"
+                ></app-info-cards>
+              </div>
+              
+            </div>
+          </div>
+      </section>
+      <!-- FIN INFOCARD SECTION -->
+    </main>
+    <!-- Fin Main -->
+
+    <!-- Footer -->
+<app-footer></app-footer>
+    <!-- Fin Footer -->
