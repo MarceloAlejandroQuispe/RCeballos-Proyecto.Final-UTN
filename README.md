@@ -1,4 +1,4 @@
-# Final-Project-Santex-Traslasierra
+# Final-Project-Rio-Ceballos-UTN
 
 Dentro del archivo package.json estan los scripts: 
 -
@@ -26,15 +26,15 @@ Dentro del archivo package.json estan los scripts:
 5) En la carpeta Front-End ejecutando el comando ng serve (Van a ejecutar la App)
 
 
-Proyecto Final Santex Education With Purposes.
+Proyecto Final para UTN .
 -
-Documentación de la Aplicación Web Mina Clavero
+Documentación de la Aplicación Web Rio Ceballos
 Resumen
-Este documento detalla el proceso de desarrollo de la Aplicación Web Mina Clavero, una plataforma informativa diseñada para tres tipos de roles: Usuario, Encuestador y Administrador. 
+Este documento detalla el proceso de desarrollo de la Aplicación Web Rio Ceballos, una plataforma informativa diseñada para tres tipos de roles: Usuario, Encuestador y Administrador. 
 La aplicación ofrece funcionalidades específicas a cada uno de estos roles, con un enfoque en la claridad, estética y usabilidad.
 
 Requerimientos
-La Aplicación Web Mina Clavero se desarrolló con los siguientes requerimientos principales:
+La Aplicación Web Rio Ceballos se desarrolló con los siguientes requerimientos principales:
 
 Creación de una aplicación informativa.
 Implementación de tres roles: Usuario, Encuestador y Administrador.
