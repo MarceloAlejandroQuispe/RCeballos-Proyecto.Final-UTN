@@ -1,4 +1,4 @@
-# Final-Project-Rio-Ceballos-UTN
+# Final-Project-UTN-Rio-Ceballos
 
 Dentro del archivo package.json estan los scripts: 
 -
@@ -26,7 +26,7 @@ Dentro del archivo package.json estan los scripts:
 5) En la carpeta Front-End ejecutando el comando ng serve (Van a ejecutar la App)
 
 
-Proyecto Final para UTN .
+Proyecto Final UTN
 -
 Documentación de la Aplicación Web Rio Ceballos
 Resumen
