@@ -10,7 +10,7 @@ Dentro del archivo package.json estan los scripts:
 -
 (Cada vez que se haga un cambio en un archivo TS este comando lo esta viendo y va a volver a generar la carpeta dist y nodemon a su vez va estar viendo esos cambios y nos va a mostrar el resultado)
 
-(Importante) - Antes debes crear la base de datos app-mina
+(Importante) - Antes debes crear la base de datos app-Rio
 -
 
 (Importante para desplegar la App)
